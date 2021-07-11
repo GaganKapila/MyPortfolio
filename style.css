@@ -1,9 +1,8 @@
-
 .one {
   margin: 0;
   padding: 0;
   width: 300px;
-  background-color: darkorange ;
+  background-color: #e38222 ;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -23,6 +22,7 @@ img{
  text-transform: uppercase;
  font-size: 50px;
  text-shadow: 1px 3px #900C3F;
+ font-family: 'Otomanopee One', sans-serif;
 
 }
 
@@ -32,7 +32,7 @@ img{
  font-weight: bold;
  font-size: 30px;
  color: #ABB1B5  ;
-
+font-family: 'Caveat', cursive;
 }
 
 
@@ -45,7 +45,7 @@ img{
 
 
 .one a.active {
-  background-color: darkorange ;
+  background-color: #e38222 ;
   color: blue;
 }
 
@@ -62,23 +62,7 @@ div.content {
 }
 
 
-@media screen and (max-width: 700px) {
-  .one {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .one a {float: left;}
-  div.content {margin-left: 0;}
-}
 
-
-@media screen and (max-width: 400px) {
-  .one a {
-    text-align: center;
-    float: none;
-  }
-}
 .fa {
   padding: 20px;
   font-size: 30%;
@@ -94,9 +78,7 @@ div.content {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
 
-/* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -117,4 +99,87 @@ div.content {
   color: white;
   height: 40px;
   width: 70px;
+}
+ 
+#education{
+
+  margin-top: 2%;
+ margin-left: 25%;
+ font-weight: bold;
+ font-size: 30px;
+ color: #ABB1B5  ;
+font-family: 'Caveat', cursive;
+  
+}
+
+#three{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #900C3F;
+ font-size: 50px;
+ text-shadow: 1px 3px #900C3F;
+ font-family: 'Otomanopee One', sans-serif;
+ text-align: center;
+
+}
+#college{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+ color: #ABB1B5  ;
+font-family: 'Caveat', cursive;
+ border-radius: 25px;
+  border: 2px solid #e32222;
+  padding: 20px; 
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+  
+}
+
+#school{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+ color: #ABB1B5  ;
+font-family: 'Caveat', cursive;
+ border-radius: 25px;
+  border: 2px solid #e32222;
+  padding: 20px; 
+  width: 100%;
+  height: 100%;
+}
+#img{
+  float: right;
+  margin-top: -250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  .one {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .one a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+
+@media screen and (max-width: 400px) {
+  .one a {
+    text-align: center;
+    float: none;
+  }
 }
