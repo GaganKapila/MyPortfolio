@@ -25,6 +25,15 @@ img{
  font-family: 'Otomanopee One', sans-serif;
 
 }
+.h2{
+  text-align: center;
+ font-weight: bold;
+ color: #900C3F;
+ text-transform: uppercase;
+ font-size: 50px;
+ text-shadow: 1px 3px #900C3F;
+ font-family: 'Otomanopee One', sans-serif;
+}
 
 .subh,.lead{
   margin-top: 2%;
@@ -153,6 +162,26 @@ font-family: 'Caveat', cursive;
   float: right;
   margin-top: -250px;
 }
+
+.five {
+  width: 80%;
+  height: 80%;
+  background-color: #72B7CE;
+  position: relative;
+  margin-left: 20%;
+  font-size: 50px;
+margin-bottom: 2%;
+  text-transform: uppercase;
+  text-align: center;
+  animation: example 4s infinite;
+  animation-play-state:running;
+}
+
+
+  @keyframes example {
+  0%   {background-color:#72B7CE; left:0px;}
+  25%  {background-color:#26E19B; left:150px;}
+    }
 
 
 
