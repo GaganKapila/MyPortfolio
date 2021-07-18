@@ -5,6 +5,7 @@
   background-color: #e38222 ;
   position: fixed;
   height: 100%;
+  text-transform: uppercase;
   overflow: auto;
   font-size: 30px;
 
@@ -184,6 +185,43 @@ margin-bottom: 2%;
     }
 
 
+.collapsible {
+  background-color: #e38222;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  margin-left: 20%;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 45px;
+  font-family: 'Otomanopee One', sans-serif;
+  margin-bottom: 5%;
+}
+
+
+.active, .collapsible:hover {
+  background-color: #555;
+  color: #FFFFFF;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.conten {
+  
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 80%;
+  text-align: center;
+  margin-left: 20%;
+  font-size: 40px;
+  margin-bottom: 5%;
+  font-family: 'Caveat', cursive;
+ 
+    
+}
 
 
 
